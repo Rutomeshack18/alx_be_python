@@ -1,10 +1,10 @@
 #!/bin/bash
 #Sum, difference and product operations on two numbers
-number1= 5
-number2= 10
+number1= 10
+number2= 5
 sum= number1 + number2
-difference= number2 - number1
+difference= number1 - number2
 product= number1*number2
-print("Addition of", number2,"and", number1,"is", sum)
-print("Subtraction of", number2, "and", number1,"is", difference)
-print("Multiplication of", number2, "and", number1, "is", product)
+print("Addition of", number1,"and", number2,"is", sum)
+print("Subtraction of", number1, "and", number2,"is", difference)
+print("Multiplication of", number1, "and", number2, "is", product)
