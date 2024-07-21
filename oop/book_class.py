@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 class Book:
     def __init__(self, title, author, year):
         self.title = title
@@ -12,4 +12,4 @@ class Book:
         return f"Book('{self.title}', '{self.author}', {self.year})"
    
     def __del__(self):
-	print(f"Deleting {self.title}")
+        print(f"Deleting {self.title}")
